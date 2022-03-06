@@ -1,0 +1,7 @@
+batch_size = 16
+max_len = 128
+bert_learning_rate = 2e-5
+lstm_learning_rate = 5*bert_learning_rate
+crf_learning_rate = 5*bert_learning_rate
+max_grad_norm = 10（梯度剪裁）
+epochs = 20
